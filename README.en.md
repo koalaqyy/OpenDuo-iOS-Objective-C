@@ -20,16 +20,19 @@ Agora Video SDK and Agora Signaling SDK supports iOS / Android / Web etc. You ca
 - [OpenDuo-Web](https://github.com/AgoraIO/OpenDuo-Web)
 
 ## Running the App
-First, create a developer account at [Agora.io](https://dashboard.agora.io/signin/), and obtain an App ID. Update "KeyCenter.mm" with your App ID and App Certificate.
+- First, create a developer account at [Agora.io](https://dashboard.agora.io/signin/), and obtain an App ID. 
+- Update "KeyCenter.mm" with your App ID and App Certificate.
 
 ```
 static NSString * const kAppID = @"Your App ID"
 static NSString * const kAppCertificate = @"Your App Certificate";
 ```
 
-Next, download the **Agora Video SDK** from [Agora.io SDK](https://www.agora.io/en/download/). Unzip the downloaded SDK package and copy the **libs/AgoraRtcEngineKit.framework** to the "OpenDuo" folder in project. Download the **Agora Signaling SDK**, unzip the downloaded SDK package and copy the **framework/AgoraSignalKit.framework** to the "OpenDuo" folder in project.
+- Next, download the **Agora Video SDK** from [Agora.io SDK](https://www.agora.io/en/download/). 
+- Unzip the downloaded SDK package and copy the **libs/AgoraRtcEngineKit.framework** to the "OpenDuo" folder in project. 
+- Download the **Agora Signaling SDK**, unzip the downloaded SDK package and copy the **libs/AgoraSignalKit.framework** to the "OpenDuo" folder in project.
 
-Finally, Open OpenDuo.xcodeproj, connect your iPhone／iPad device, setup your development signing and run.
+- Finally, Open OpenDuo.xcodeproj, connect your iPhone／iPad device, setup your development signing and run.
 
 ## Developer Environment Requirements
 * XCode 9.0 +
